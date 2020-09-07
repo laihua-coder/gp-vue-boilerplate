@@ -1,0 +1,530 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-09-07T13:03:58.957Z",
+    "end": "2020-09-07T13:03:58.957Z",
+    "duration": 3169,
+    "testsRegistered": 8,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "da033f1a-b91c-47be-8187-7538ef2450a9",
+      "title": "",
+      "fullFile": ".cypress/integration/test.spec.js",
+      "file": ".cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b1392603-2bb0-49b7-8751-ed248c068839",
+          "title": "macbook-15 resolution",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "0d83a9d3-5afa-4c3a-8da9-4a8571d9f2d4",
+              "title": "homepage",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "menu button",
+                  "fullTitle": "macbook-15 resolution homepage menu button",
+                  "timedOut": null,
+                  "duration": 577,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit('/');\ncy.get('.page-menu-button').first().click();",
+                  "err": {},
+                  "uuid": "ad413c35-3995-4f47-85a6-7e953d25a6bb",
+                  "parentUUID": "0d83a9d3-5afa-4c3a-8da9-4a8571d9f2d4",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "ad413c35-3995-4f47-85a6-7e953d25a6bb"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 577,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3b4a9b47-1a28-49cb-97e3-e6c034e1cd46",
+          "title": "macbook-13 resolution",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "fe2d39a6-4135-4d8f-a4f3-c597c6095b44",
+              "title": "homepage",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "menu button",
+                  "fullTitle": "macbook-13 resolution homepage menu button",
+                  "timedOut": null,
+                  "duration": 413,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit('/');\ncy.get('.page-menu-button').first().click();",
+                  "err": {},
+                  "uuid": "7310612e-832e-4041-89ad-d3966c72088c",
+                  "parentUUID": "fe2d39a6-4135-4d8f-a4f3-c597c6095b44",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "7310612e-832e-4041-89ad-d3966c72088c"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 413,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a818bc62-d2a8-4a60-b7b0-06b891488e5e",
+          "title": "macbook-11 resolution",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "e20331b8-d9e6-40fd-bd95-acfbf5a7e394",
+              "title": "homepage",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "menu button",
+                  "fullTitle": "macbook-11 resolution homepage menu button",
+                  "timedOut": null,
+                  "duration": 352,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit('/');\ncy.get('.page-menu-button').first().click();",
+                  "err": {},
+                  "uuid": "7b8c9106-b633-47bb-beb5-7b6545922f17",
+                  "parentUUID": "e20331b8-d9e6-40fd-bd95-acfbf5a7e394",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "7b8c9106-b633-47bb-beb5-7b6545922f17"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 352,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "82611fc0-1278-4c18-b0a1-08d05ec85643",
+          "title": "ipad-2 resolution",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "47c919f6-7122-4c0e-bae9-dc752b9472d8",
+              "title": "homepage",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "menu button",
+                  "fullTitle": "ipad-2 resolution homepage menu button",
+                  "timedOut": null,
+                  "duration": 372,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit('/');\ncy.get('.page-menu-button').first().click();",
+                  "err": {},
+                  "uuid": "c41c3742-9198-4234-bd6a-f779b1b17362",
+                  "parentUUID": "47c919f6-7122-4c0e-bae9-dc752b9472d8",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "c41c3742-9198-4234-bd6a-f779b1b17362"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 372,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "da8498b9-6000-4541-8e00-02883a88709a",
+          "title": "ipad-mini resolution",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "70cbae0b-603e-4ac7-9fe0-89a9ab448503",
+              "title": "homepage",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "menu button",
+                  "fullTitle": "ipad-mini resolution homepage menu button",
+                  "timedOut": null,
+                  "duration": 348,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit('/');\ncy.get('.page-menu-button').first().click();",
+                  "err": {},
+                  "uuid": "77b4c16c-1d5b-452f-8289-164dde377d78",
+                  "parentUUID": "70cbae0b-603e-4ac7-9fe0-89a9ab448503",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "77b4c16c-1d5b-452f-8289-164dde377d78"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 348,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d18ab02e-018f-408f-8b77-178f9c7e8b9f",
+          "title": "iphone-6+ resolution",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "c2297991-e905-404e-9eb3-8a9c548b1166",
+              "title": "homepage",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "menu button",
+                  "fullTitle": "iphone-6+ resolution homepage menu button",
+                  "timedOut": null,
+                  "duration": 401,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit('/');\ncy.get('.page-menu-button').first().click();",
+                  "err": {},
+                  "uuid": "b52a5e87-9386-4e50-931e-1e378fb1d1d5",
+                  "parentUUID": "c2297991-e905-404e-9eb3-8a9c548b1166",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "b52a5e87-9386-4e50-931e-1e378fb1d1d5"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 401,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "f953fa46-fe59-4e9c-a8dc-6a11c3c2b639",
+          "title": "iphone-6 resolution",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "41c6f24f-5e45-49da-af52-c6975ec293f7",
+              "title": "homepage",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "menu button",
+                  "fullTitle": "iphone-6 resolution homepage menu button",
+                  "timedOut": null,
+                  "duration": 349,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit('/');\ncy.get('.page-menu-button').first().click();",
+                  "err": {},
+                  "uuid": "9d3c3113-e035-4223-a4d0-74247970ad4c",
+                  "parentUUID": "41c6f24f-5e45-49da-af52-c6975ec293f7",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "9d3c3113-e035-4223-a4d0-74247970ad4c"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 349,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "1bde9c87-173f-4b27-a6f9-54f788f6796e",
+          "title": "iphone-5 resolution",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "597f3919-64b6-4afd-b9b4-b7760e857c3f",
+              "title": "homepage",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "menu button",
+                  "fullTitle": "iphone-5 resolution homepage menu button",
+                  "timedOut": null,
+                  "duration": 357,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit('/');\ncy.get('.page-menu-button').first().click();",
+                  "err": {},
+                  "uuid": "d3ea41f8-91b0-46c5-a00b-2ab73b27e552",
+                  "parentUUID": "597f3919-64b6-4afd-b9b4-b7760e857c3f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "d3ea41f8-91b0-46c5-a00b-2ab73b27e552"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 357,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "./reports/cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
